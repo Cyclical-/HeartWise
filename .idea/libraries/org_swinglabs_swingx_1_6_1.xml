@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="org.swinglabs:swingx:1.6.1" type="repository">
+    <properties maven-id="org.swinglabs:swingx:1.6.1" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/swingx-1.6.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/filters-2.0.235.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/swing-worker-1.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
