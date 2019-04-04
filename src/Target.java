@@ -83,52 +83,6 @@ public class Target implements Runnable {
                     return;
                 }
             }
-            /*Timer t2 = new Timer(1000, null);
-            t2.addActionListener(new ActionListener() {
-                int count = 15;
-
-                @Override
-                public void actionPerformed(ActionEvent actionEvent) {
-                    if (count > 0) {
-                        SoundEffect.TARGET_BEAT.play();
-                        System.out.println("TRIGGER I2");
-                        count--;
-                    } else {
-                        t2.stop();
-
-                    }
-                }
-            });
-            t2.start();
-            while (t2.isRunning()) {
-                if (!this.running) {
-                    t2.stop();
-                    return;
-                }
-            }
-
-            Timer t3 = new Timer(700, null);
-            t3.addActionListener(new ActionListener() {
-                int count = 8;
-
-                @Override
-                public void actionPerformed(ActionEvent actionEvent) {
-                    if (count > 0) {
-                        System.out.println("Trigger I3");
-                        SoundEffect.TARGET_BEAT.play();
-                        count--;
-                    } else {
-                        t3.stop();
-                    }
-                }
-            });
-            t3.start();
-            while (t3.isRunning()) {
-                if (!this.running) {
-                    t3.stop();
-                    return;
-                }
-            }*/
         } else if (this.heartWise.currentCourse.equals("Intermediate")) {
 
         }
